@@ -1,0 +1,39 @@
+#!/bin/sh
+
+# Update Homebrew, formulae, and packages
+
+brew update
+brew upgrade
+
+# Install packages
+
+apps=(
+    bash-completion2
+    coreutils
+    dockutil
+    ffmpeg
+    fsad
+    gifsicle
+    git
+    gnu-sed --default-names
+    grep --default-names
+    hub
+    imagemagick 
+    jq
+    lua
+    luarocks
+    mackup
+    mysql
+    node
+    peco
+    phantomjs
+    psgrep
+    python
+    ssh-copy-id
+    svn
+    tree
+    vim
+    wget
+)
+
+brew install ${apps[@]}
