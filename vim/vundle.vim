@@ -46,6 +46,7 @@ Plugin 'honza/vim-snippets'
 
 Bundle "pangloss/vim-javascript"
 Plugin 'marijnh/tern_for_vim'
+Plugin 'posva/vim-vue'
 
 " Other
 
