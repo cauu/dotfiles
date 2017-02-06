@@ -26,6 +26,9 @@ Bundle "itchyny/lightline.vim"
 Plugin 'terryma/vim-multiple-cursors'
 Bundle 'rking/ag.vim'
 
+" Global search (Required globally installed ack)
+Plugin 'mileszs/ack.vim' 
+
 " Git
 
 Plugin 'tpope/vim-fugitive'
